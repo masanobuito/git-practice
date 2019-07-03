@@ -60,7 +60,7 @@ main {
 
 @media screen and (max-width: 768px){
   mein{
-    width: 100px;
+    width: 100%;
   }
   .step-box{
     float: none;
