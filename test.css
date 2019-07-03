@@ -32,17 +32,17 @@ main {
 
 .step-img1 {
   height: 150px;
-  background-image: url(/Users/apple/Downloads/chapter8_exercise/img/flow01.png);
+  background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }.step-img2 {
   height: 150px;
-  background-image: url(/Users/apple/Downloads/chapter8_exercise/img/flow02.png);
+  background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
 }.step-img3 {
   height: 150px;
-  background-image: url(/Users/apple/Downloads/chapter8_exercise/img/flow03.png);
+  background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -53,4 +53,33 @@ main {
   background-color: #FF9A4B;
   color: #fff;
   padding: 3px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+  mein{
+    width: 100px;
+  }
+  .step-box{
+    float: none;
+    margin: 0 5% 0 5%;
+    margin-bottom: 20px;
+  }
+  .step-img1{
+    width: 100%;
+  }
+  .step-img2{
+    width: 100%;
+  }
+  .step-img3{
+    width: 100%;
+  }
+  .title{
+    width: 100%
+  }
+  .text{
+    width: 100%;
+  }
 }
