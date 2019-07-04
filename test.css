@@ -67,6 +67,7 @@ main {
     margin: 0 5% 0 5%;
     margin-bottom: 20px;
   }
+  /* 中央寄せできない（margin: 0 auto;でも崩れる） */
   .step-img1{
     width: 100%;
   }
