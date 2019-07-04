@@ -71,7 +71,6 @@ main {
   .step-box:last-child {
     margin: 0 auto;
 }
-  /* 中央寄せできない（margin: 0 auto;でも崩れる） */
   .step-img1{
     width: 100%;
   }
